@@ -1,5 +1,30 @@
+img{
+    width: 10%;
+}
 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
     text-align: justify;
+    display: flex;
+    align-items: center;
+}
+.row *{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    /* --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+*, ::after, ::before {
+    box-sizing: border-box;
 }
