@@ -1,0 +1,29 @@
+#myservice{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration-line: underline;
+}
+#myworks{
+  text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration-line: underline;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+#my-heading{
+   font-weight: bold;
+   color:cadetblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+#contactme{
+  text-align: center;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footertext{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
